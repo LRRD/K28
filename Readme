@@ -1,0 +1,3 @@
+The K28 is a simple flow controller for use with Emriver models and our GRI pump.
+The newest version, 2, passes through 12/24V to the pump, sends a 5V (full speed) control voltage signal, and pulses GND using a MOSFET to finely control pump speed.
+The contained file uses AVRdude to upload the Arduino code and set the low fuse bits of the microcontroller, telling it to use the internal oscillator for timing.
